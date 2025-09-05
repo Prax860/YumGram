@@ -1,3 +1,4 @@
+require('dotenv').config(); //if we use imprt here it will give undefined error
 const app  = require('./src/app');
 const connectDB = require('./src/db/db');
 
