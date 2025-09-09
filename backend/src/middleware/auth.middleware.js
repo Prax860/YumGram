@@ -14,4 +14,8 @@ async function authFoodPartnerMiddleware(req, res, next) { //always 3 params in 
         return res.status(401).json({ message: 'Unauthorized' });
     }
 }
-module.exports = authFoodPartnerMiddleware;
+
+
+module.exports ={
+    authFoodPartnerMiddleware
+}
